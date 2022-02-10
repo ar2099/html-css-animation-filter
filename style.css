@@ -29,7 +29,7 @@
     width: 100px;
     height: 100px;
     background: red;
-    transition: all 8s ease 1.5s
+    transition: all 8s ease 1.5s;
 }
 
 .ex-3-square:hover {
@@ -43,13 +43,31 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: all 4s ease 4s;
 }
+
+.ex-4-square:hover {
+    width: 0px;
+    height: 0px;
+    background: red;
+    opacity: 0;
+}
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+    transition: all 2s ease 2s;
 }
+
+.ex-5-square:hover {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
