@@ -92,7 +92,7 @@
     transition: 3s ease 2s;
 }
 
-.ex-8-img {
+.ex-8-img:hover {
     width: 500px;
     filter: grayscale(100%);
     border-radius: 30px;
@@ -101,10 +101,26 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 3s ease 2s;
 }
+
+.ex-9-img:hover {
+    margin: 50px 100px;
+    width: 300px;
+    filter: grayscale(100%);
+    border-radius: 20px;
+}
+
 .ex-10-icon {
     font-size: 60px;
+    transition: 3s ease 1.5s;
 }
+
+.ex-10-icon:hover {
+    font-size: 60px;
+    transform: rotate(720deg);
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
