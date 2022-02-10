@@ -68,8 +68,34 @@
     background: red;
 }
 
-.ex-6-img, .ex-7-img, .ex-8-img {
+.ex-6-img {
     width: 500px;
+}
+
+.ex-6-img:hover {
+    width: 500px;
+    filter: grayscale(100%);
+}
+
+.ex-7-img {
+    width: 500px;
+    transition: 3s ease 2s;
+}
+
+.ex-7-img:hover {
+    width: 500px;
+    filter: grayscale(100%);
+}
+
+.ex-8-img {
+    width: 500px;
+    transition: 3s ease 2s;
+}
+
+.ex-8-img {
+    width: 500px;
+    filter: grayscale(100%);
+    border-radius: 30px;
 }
 
 .ex-9-img {
