@@ -124,14 +124,24 @@
 
 .ex-11-icon {
     font-size: 60px;
-    transition: 3s ease 0.5s
+    
 }
 
 .ex-11-icon:hover {
     font-size: 60px;
-    transform: rotate(270deg);
+    animation-name: esercizio11 ;
+    animation-duration: 2.5s;
 }
+ @keyframes esercizio11 {
 
+     80% {
+        transform: rotate(270deg)
+     }
+     
+     100% {
+         transform: rotate(0deg);
+     }
+ }
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
