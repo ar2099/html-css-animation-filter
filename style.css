@@ -182,9 +182,24 @@
         left: 10%;
     }
     50% {
-        left: 80%;
+        left: 68%;
     }
     100% {
         left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: movimento-sotto 3s;
+}
+@keyframes movimento-sotto {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: 66%;
+    }
+    100% {
+        right: 20%;
     }
 }
