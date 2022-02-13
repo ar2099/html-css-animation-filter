@@ -79,22 +79,23 @@
 
 .ex-7-img {
     width: 500px;
-    transition: 3s ease 2s;
+    transition: 3s ;
 }
 
 .ex-7-img:hover {
     width: 500px;
-    filter: grayscale(100%);
+    filter: grayscale(50%) contrast(50%);
+    
 }
 
 .ex-8-img {
     width: 500px;
-    transition: 3s ease 2s;
+    transition: 3s;
 }
 
 .ex-8-img:hover {
     width: 500px;
-    filter: grayscale(100%);
+    filter: grayscale(100%) contrast(50%);
     border-radius: 30px;
 }
 
